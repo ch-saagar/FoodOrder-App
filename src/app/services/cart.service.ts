@@ -2,12 +2,14 @@ import { Injectable } from '@angular/core';
 import { Cart } from '../shared/models/Cart';
 import { Food } from '../shared/models/food';
 import { CartItem } from '../shared/models/CartItem';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CartService {
   private cart: Cart = new Cart();
+  cartSubject: any;
   addToCart(food:Food) :void{
     let cartItem= this.cart.items.find(item => item.food.id === food.id)
     if (cartItem){
@@ -25,6 +27,10 @@ export class CartService {
     if(!cartItem) return;
     cartItem.quantity = quantity;
   }
+  getCartObservable(): Observable<Cart> {
+    return this.cartSubject.asObservable();
+  }
+
   getCart():Cart{
     return this.cart;
   }

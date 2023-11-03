@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CartItem } from '../shared/models/CartItem';
 import { Cart } from '../shared/models/Cart';
+import { CartService } from '../services/cart.service';
 
 @Component({
   selector: 'app-cart-page',
@@ -10,7 +11,7 @@ import { Cart } from '../shared/models/Cart';
 export class CartPageComponent {
   cart!: Cart;
   constructor(private cartService: CartService) {
-    this.cartService.getCartObservable().subscribe((cart) => {
+    this.cartService.getCartObservable().subscribe((cart: Cart) => {
       this.cart = cart;
     })
    }
