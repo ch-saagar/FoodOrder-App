@@ -22,6 +22,23 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+#Images:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+![Screenshot from 2023-11-03 15-26-11](https://github.com/ch-saagar/FoodOrder-App/assets/108117360/81bcbdd0-8ceb-4f0d-94dc-e903cb4d5fdd)
+
+![Screenshot from 2023-11-03 15-26-20](https://github.com/ch-saagar/FoodOrder-App/assets/108117360/701411c3-b08a-4cb2-895b-348b59e17675)
+
+
+
+![Screenshot from 2023-11-03 15-26-48](https://github.com/ch-saagar/FoodOrder-App/assets/108117360/b3dbe2d9-aef6-454e-ba68-66cd9760b954)
+
+
+
+
+
+
+
+
+
+
