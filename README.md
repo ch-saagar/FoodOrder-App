@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#Images:
+![Screenshot from 2023-11-03 15-26-11](https://github.com/ch-saagar/FoodOrder-App/assets/108117360/81bcbdd0-8ceb-4f0d-94dc-e903cb4d5fdd)
+![Screenshot from 2023-11-03 15-26-20](https://github.com/ch-saagar/FoodOrder-App/as![Screenshot from 2023-11-03 15-26-48](https://github.com/ch-saagar/FoodOrder-App/assets/108117360/ff01baa8-1b70-490d-8246-4d20c5aedd64)
+sets/108117360/bd9b0a61-2024-40f2-9499-6bc2d095ca32)
+
+
